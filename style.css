@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -10,30 +11,31 @@
     min-height: 800px;
   }
 
-  #google a{
+body #google-word {
+    text-align: center ;
     font-family: "Product Sans";
-    font-size: 50px;
-    text-align: center;
+    font-size: 70px;
+}
 
-  }
-  #google a:nth-child(1) {
+  #google-word a:nth-child(1) {
     color:#4285F4;
+    
   }
-  #google a:nth-child(2) {
+  #google-word a:nth-child(2) {
     color:#EA4335;
   }
-  #google a:nth-child(3) {
+  #google-word a:nth-child(3) {
     color:#FBBC05;
   }
-  #google a:nth-child(4) {
+  #google-word a:nth-child(4) {
     color:#4285F4;
   }
-  #google a:nth-child(5) {
+  #google-word a:nth-child(5) {
     color:#34A853;
   }
-  #google a:nth-child(6) {
+  #google-word a:nth-child(6) {
     color:#EA4335;
   }
-  #google a:nth-child(7) {
+  #google-word a:nth-child(7) {
     color:#FBBC05;
   }
