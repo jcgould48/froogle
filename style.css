@@ -9,3 +9,31 @@
     justify-content: space-around;
     min-height: 800px;
   }
+
+  #google a{
+    font-family: "Product Sans";
+    font-size: 50px;
+    text-align: center;
+
+  }
+  #google a:nth-child(1) {
+    color:#4285F4;
+  }
+  #google a:nth-child(2) {
+    color:#EA4335;
+  }
+  #google a:nth-child(3) {
+    color:#FBBC05;
+  }
+  #google a:nth-child(4) {
+    color:#4285F4;
+  }
+  #google a:nth-child(5) {
+    color:#34A853;
+  }
+  #google a:nth-child(6) {
+    color:#EA4335;
+  }
+  #google a:nth-child(7) {
+    color:#FBBC05;
+  }
