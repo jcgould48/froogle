@@ -9,6 +9,8 @@
     flex-direction: column;
     justify-content: space-around;
     min-height: 800px;
+    text-align: center;
+    
   }
 
 body #google-word {
@@ -38,4 +40,26 @@ body #google-word {
   }
   #google-word a:nth-child(7) {
     color:#FBBC05;
+  }
+
+form {
+    padding: 100px 100px;
+    margin: 100px;      
+}
+  body #searchbar{
+    width: 500px;
+  height: 50px;
+  border: 1px  solid black;
+  font-size: 10pt;
+  color: #63717f;
+  border-radius: 25px;
+  }
+
+  form button {
+    width: 15%;
+    background: #F6F6F6;
+    font-size: 17px;
+    border: 1px solid grey; 
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
   }
