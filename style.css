@@ -3,7 +3,23 @@
     margin: 0;
     box-sizing: border-box;
   }
-  
+ /* Header */ 
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+a.left-header{
+    color: orange;
+    text-align: start;
+   
+}
+a.left-header{
+    color: orange;
+    text-align: start;
+   
+}
+
   body {
     display: flex;
     flex-direction: column;
@@ -12,7 +28,7 @@
     text-align: center;
     
   }
-
+/* Letters */
 body #google-word {
     text-align: center ;
     font-family: "Product Sans";
@@ -42,6 +58,7 @@ body #google-word {
     color:#FBBC05;
   }
 
+  /* Search bar and buttons */
 form {
     padding: 100px 100px;
     margin: 100px;      
