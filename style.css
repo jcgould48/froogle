@@ -2,23 +2,27 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
   }
  /* Header */ 
 
 header a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    padding: 10px ;
+     
 }
-a.left-header{
-    color: orange;
-    text-align: start;
+
+ header #l-header{
    
+    text-align: left;
 }
-a.left-header{
-    color: orange;
-    text-align: start;
-   
+
+header #r-header{
+
+    text-align: right; 
 }
+
 
   body {
     display: flex;
@@ -26,13 +30,14 @@ a.left-header{
     justify-content: space-around;
     min-height: 800px;
     text-align: center;
-    
+     
   }
 /* Letters */
 body #google-word {
     text-align: center ;
     font-family: "Product Sans";
     font-size: 70px;
+    
 }
 
   #google-word a:nth-child(1) {
@@ -58,10 +63,11 @@ body #google-word {
     color:#FBBC05;
   }
 
+
   /* Search bar and buttons */
-form {
-    padding: 100px 100px;
-    margin: 100px;      
+form  #google-word {
+    padding: 10px 10px;
+    
 }
   body #searchbar{
     width: 500px;
@@ -70,6 +76,7 @@ form {
   font-size: 10pt;
   color: #63717f;
   border-radius: 25px;
+    
   }
 
   form button {
